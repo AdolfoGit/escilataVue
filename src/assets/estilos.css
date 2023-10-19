@@ -1,24 +1,3 @@
-<template>
-  <div id="app">
-
-    <escitala></escitala>
-  </div>
-</template>
-
-<script>
-import Escitala from "./components/escilata.vue";
-
-
-export default {
-  name: "App",
-  components: {
-    Escitala 
-  }
-};
-</script>
-
-
-<style>
 .container {
   display: flex;
   justify-content: center;
@@ -87,4 +66,3 @@ h2 {
   background-color: rgb(213, 213, 236);
   padding: 10px;
 }
-</style>
